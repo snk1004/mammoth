@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mammoth</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="banner">
+      <div class="container">
+        <h1>word to html</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="take_btn">
+        <input type="text" class="out_inp" placeholder="请输入输出文件名">
+        <input id="document" class="document" type="file" />
+        <span class="choice_file">请选择文件</span>
+        <a href="#" download="index.html" class="down_load">
+          <span>下载</span>
+        </a>
+      </div>
+      <div class="row">
+        <div class="span8" id="outputNode">
+          <div id="output" class="well">
+          </div>
+        </div>
+        <div class="span4" style="display: none;">
+          <h3>Messages</h3>
+          <div id="messages">
+          </div>
+        </div>
+      </div>
+      <div class="mess_box">
+        <div class="box_container">
+          <h3>消息提示</h3>
+          <p>请输入输出文件的文件名</p>
+          <span class="off_box">确定</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/mammoth.browser.js"></script>
+  <script src="./js/mam.js"></script>
+</body>
+
+</html>
